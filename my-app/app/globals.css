@@ -1,0 +1,21 @@
+@import "tailwindcss";
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo span{
+  font-size: 25px;
+  font-weight: 700;
+}
+.todo-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure scrolling still works */
+.todo-list {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+  overflow-y: scroll;
+}
